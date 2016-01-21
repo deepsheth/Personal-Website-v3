@@ -1,0 +1,1147 @@
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 169, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 173, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 425, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 9, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 15, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+[class*='col-'] {
+  float: left;
+  padding: 15px;
+}
+
+/* line 21, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.row-no-pad > [class*='col-'] {
+  padding: 0;
+}
+
+/* Defaults column sizes to 100% as a mobile first responsive rule */
+/* line 29, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+[class*='col-sm-'],
+[class*='col-md-'],
+[class*='col-lg-'] {
+  width: 100%;
+}
+
+/* line 33, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 34, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-11 {
+  width: 91.66667%;
+}
+
+/* line 35, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-10 {
+  width: 83.33333%;
+}
+
+/* line 36, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 37, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-8 {
+  width: 66.66667%;
+}
+
+/* line 38, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-7 {
+  width: 58.33333%;
+}
+
+/* line 39, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 40, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-5 {
+  width: 41.66667%;
+}
+
+/* line 41, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-4 {
+  width: 33.33333%;
+}
+
+/* line 42, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 43, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-2 {
+  width: 16.66667%;
+}
+
+/* line 44, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+.col-xs-1 {
+  width: 8.33333%;
+}
+
+@media only screen and (min-width: 450px) {
+  /* line 47, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 48, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-11 {
+    width: 91.66667%;
+  }
+
+  /* line 49, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-10 {
+    width: 83.33333%;
+  }
+
+  /* line 50, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 51, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+
+  /* line 52, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-7 {
+    width: 58.33333%;
+  }
+
+  /* line 53, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 54, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-5 {
+    width: 41.66667%;
+  }
+
+  /* line 55, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+
+  /* line 56, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 57, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-2 {
+    width: 16.66667%;
+  }
+
+  /* line 58, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-sm-1 {
+    width: 8.33333%;
+  }
+}
+@media only screen and (min-width: 750px) {
+  /* line 62, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 63, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-11 {
+    width: 91.66667%;
+  }
+
+  /* line 64, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-10 {
+    width: 83.33333%;
+  }
+
+  /* line 65, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 66, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-8 {
+    width: 66.66667%;
+  }
+
+  /* line 67, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-7 {
+    width: 58.33333%;
+  }
+
+  /* line 68, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 69, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-5 {
+    width: 41.66667%;
+  }
+
+  /* line 70, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-4 {
+    width: 33.33333%;
+  }
+
+  /* line 71, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 72, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-2 {
+    width: 16.66667%;
+  }
+
+  /* line 73, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-md-1 {
+    width: 8.33333%;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  /* line 77, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 78, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-11 {
+    width: 91.66667%;
+  }
+
+  /* line 79, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-10 {
+    width: 83.33333%;
+  }
+
+  /* line 80, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 81, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+
+  /* line 82, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-7 {
+    width: 58.33333%;
+  }
+
+  /* line 83, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 84, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-5 {
+    width: 41.66667%;
+  }
+
+  /* line 85, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+
+  /* line 86, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 87, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-2 {
+    width: 16.66667%;
+  }
+
+  /* line 88, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/partials/_grid.scss */
+  .col-lg-1 {
+    width: 8.33333%;
+  }
+}
+/* line 9, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 13, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+body {
+  font-size: 2rem;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+/* line 20, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#home #header-bg {
+  height: 850px;
+  text-align: center;
+  color: #FFF;
+  background: #3f91dd url("img/Mountains.svg") no-repeat bottom center;
+  background-size: contain;
+  border-bottom: .25em solid #67361B;
+}
+
+/* line 29, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#home #logo-header {
+  padding-top: 2em;
+  padding-right: 2em;
+}
+
+/* line 34, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#home #site-logo {
+  height: 3.5em;
+  margin-right: 1em;
+}
+
+/* line 39, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#home #first-name {
+  font-size: 5em;
+  font-family: "Rajdhani";
+  text-transform: lowercase;
+  display: inline;
+  text-shadow: #0f75bc 0px 6px 0;
+}
+
+/* line 49, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#home #last-name {
+  font-width: 41.66667%;
+  font-size: 2.25em;
+  font-family: "Rajdhani";
+  text-transform: lowercase;
+  position: relative;
+  bottom: .65em;
+  left: 1em;
+  letter-spacing: .25em;
+  margin: 0;
+  text-shadow: #0f75bc 0px 2px 6px;
+}
+
+/* line 64, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+header#header-bg {
+  background: #3f91dd;
+  border-bottom: 0.35em solid #0f75bc;
+}
+/* line 66, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+header#header-bg img {
+  height: 2.5em;
+  width: auto;
+  margin: 0.5em 0px 0px 0.4em;
+}
+
+/* line 74, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+header #site-title {
+  font-family: "Rajdhani";
+  text-transform: lowercase;
+  color: #FFF;
+  margin: 0;
+}
+
+/* line 81, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#education {
+  background: #67361b;
+  color: white;
+}
+/* line 84, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#education h2 {
+  margin: 0;
+}
+/* line 87, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#education #lehigh-title {
+  letter-spacing: 6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 92, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#education hr {
+  border: 0;
+  height: 3px;
+  margin: .35em 0 .35em 0;
+  background: #3a1b04;
+}
+/* line 98, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#education h4 {
+  margin: .5em 0 0;
+  font-family: "Asap", serif;
+  color: #f2ece6;
+  letter-spacing: 1px;
+  color: #3a1b04;
+}
+/* line 105, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#education small {
+  font-family: "Asap", serif;
+  color: #3a1b04;
+}
+
+/* line 111, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#grey-depth {
+  background-size: cover;
+  width: 110.6%;
+}
+
+/* line 118, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.container-padded {
+  padding: 3.5em 15%;
+}
+
+/* line 122, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements {
+  background: #0f75bc;
+}
+/* line 125, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements #left-side-bar #icon-award {
+  margin-top: 10.5em;
+}
+/* line 128, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements #left-side-bar #pennapps-block {
+  margin-top: 9.25em;
+}
+/* line 130, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements #left-side-bar #pennapps-block p {
+  border-color: #01556d;
+  color: #3f91dd;
+  text-align: center;
+  font-size: .7em;
+}
+/* line 137, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements #left-side-bar #fbla-flag {
+  margin-top: 11.5em;
+}
+/* line 140, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements #left-side-bar img {
+  display: block;
+  max-height: 4.5em;
+  width: 100%;
+  max-width: 5em;
+  margin: auto;
+}
+/* line 148, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements #right-side-bar {
+  background: #3f91dd;
+  padding: 0em 4em;
+}
+/* line 152, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements a {
+  color: white;
+  text-decoration: none;
+}
+/* line 156, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements a:hover {
+  text-decoration: underline;
+}
+/* line 159, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#achievements p {
+  color: #eb7312;
+  background: #fff;
+  padding: 1.5em;
+  margin: 0;
+  line-height: 1.4;
+  border: 1em solid #e3e3e3;
+}
+
+/* line 169, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.content-summary {
+  margin: 5em auto;
+}
+
+/* line 173, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#deep-info {
+  background: #e3e3e3;
+}
+/* line 175, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#deep-info img {
+  border-radius: 10%;
+}
+/* line 178, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#deep-info p {
+  margin-left: 2.75em;
+}
+
+/* line 183, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#deep-generator {
+  background: #505050;
+  color: #fff;
+  text-align: center;
+  padding: 1.65em;
+  text-transform: uppercase;
+  font-family: "Asap", serif;
+}
+
+/* line 193, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#featured-work img {
+  width: 100%;
+  background: #e3e3e3;
+  display: block;
+}
+/* line 198, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#featured-work [class*="col-"] {
+  padding: 2em;
+}
+/* line 201, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#featured-work h2 {
+  color: #3f91dd;
+}
+/* line 204, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#featured-work h6 {
+  text-decoration: none;
+}
+
+/* line 209, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.card-footer {
+  text-align: center;
+  padding: 1em 1em;
+  -webkit-transition: background 250ms ease;
+  -moz-transition: background 250ms ease;
+  -ms-transition: background 250ms ease;
+  -o-transition: background 250ms ease;
+  transition: background 250ms ease;
+}
+
+/* line 219, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.card {
+  padding: 0;
+  -webkit-box-shadow: rgba(80, 80, 80, 0.35) 0px 2px 8px, rgba(194, 194, 194, 0.2) 0px 0px 15px;
+  -moz-box-shadow: rgba(80, 80, 80, 0.35) 0px 2px 8px, rgba(194, 194, 194, 0.2) 0px 0px 15px;
+  box-shadow: rgba(80, 80, 80, 0.35) 0px 2px 8px, rgba(194, 194, 194, 0.2) 0px 0px 15px;
+}
+
+/* line 225, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.card:hover .card-footer {
+  background: #3f91dd;
+}
+
+/* line 229, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.card:hover a {
+  color: #FFF;
+}
+
+/* line 233, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.card a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #3f91dd;
+  font-size: .65em;
+  font-weight: bold;
+  font-family: "Asap", serif;
+}
+
+/* line 243, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+footer {
+  background: #505050;
+  color: #FFF;
+}
+/* line 246, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+footer h3 {
+  margin: 0 auto;
+}
+/* line 249, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+footer img {
+  max-height: 1em;
+  max-width: 1.5em;
+  margin: .75em .1em;
+}
+/* line 254, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+footer .tagline {
+  color: #505050;
+  text-align: right;
+  text-shadow: rgba(182, 182, 182, 0.75) 3px 3px 0px;
+}
+/* line 259, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+footer .copyright {
+  background: #3d3d3d;
+  color: #b6b6b6;
+  padding: .25em 0 .25em 1.5em;
+}
+/* line 263, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+footer .copyright p {
+  color: #e3e3e3;
+  font-size: .5em;
+  margin: 0;
+}
+
+/* line 271, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 75rem;
+}
+
+/* line 277, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#main-content .container {
+  max-width: 50rem;
+}
+
+/* line 281, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+#main-content {
+  margin-bottom: 5em;
+  padding-bottom: 3em;
+}
+
+/* line 286, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+span.thin {
+  font-weight: lighter;
+  opacity: .8;
+}
+
+/* line 291, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+p {
+  margin-top: 0;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #3d3d3d;
+  font-family: "Asap", serif;
+}
+
+/* line 299, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+p a {
+  font-weight: bold;
+  color: #0f75bc;
+  text-decoration: none;
+}
+
+/* line 305, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+p a:hover {
+  color: #01556d;
+  border-bottom: 2px solid #01556d;
+  padding-bottom: .15em;
+}
+
+/* line 312, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+p a:active,
+p a:focus {
+  color: #eb7312;
+}
+
+/* line 318, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.color-brown {
+  color: #67361B;
+}
+
+/* line 322, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.color-accent {
+  color: #eb7312;
+}
+
+/* line 326, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.full-width {
+  width: 100%;
+}
+
+/* line 330, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.post-title {
+  text-align: center;
+  margin: 2em auto;
+}
+
+/* line 335, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.post-title > h1 {
+  font-weight: normal;
+  margin: 0;
+  color: rgba(235, 115, 18, 0.8);
+}
+
+/* line 341, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.post-title .post-info {
+  font-size: .6em;
+  font-family: "Asap", serif;
+  color: rgba(61, 61, 61, 0.7);
+  list-style-type: none;
+  display: inline-block;
+  padding: .75em;
+  border-radius: 50%;
+}
+
+/* line 351, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.awards {
+  background: #0f75bc;
+  margin: 2em auto;
+  max-width: 60rem;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+/* line 357, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.awards .left-bar {
+  background: #0f75bc;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  margin: auto;
+}
+/* line 363, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.awards img {
+  max-height: 3em;
+  width: 100%;
+  margin-top: 30%;
+}
+/* line 368, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.awards .right-bar {
+  color: #FFF;
+  background: #3f91dd;
+  -webkit-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+}
+/* line 373, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.awards .right-bar p {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: .75em;
+  color: #FFF;
+}
+
+/* line 381, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.content-footer {
+  margin: 2em auto;
+  padding: 2em 0;
+  border-top: 0.1em solid #e3e3e3;
+  border-bottom: 0.1em solid #e3e3e3;
+}
+
+/* line 388, C:/Users/Sheth/Documents/GitHub/Pesonal Website v3/style.scss */
+.content-footer .card {
+  padding: auto .5em;
+}

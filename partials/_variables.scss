@@ -1,0 +1,93 @@
+// ============================================================================
+// .::[ FONTS ]::.
+// ============================================================================
+
+$font-logotype:				'Rajdhani';
+$font-primary: 				'Roboto Slab', sans-serif;
+$font-complement: 			'Asap', serif;
+$font-accent: 				'', serif;
+
+
+// ============================================================================
+// .::[ COLORS ]::.
+// ============================================================================
+
+$color-primary: 			#3f91dd;
+$color-primary-darker:      #0f75bc;  
+
+$color-accent:              #eb7312;
+
+$color-brown-light:         #936645;
+$color-brown-lightest:      #F2ECE6;
+$color-brown:               #67361B;
+$color-brown-dark:          #3A1B04;
+
+$color-grey-lightest:       #f4f4f4;
+$color-grey-light:          #e3e3e3;
+$color-grey:                #c2c2c2;
+$color-grey-dark:           #b6b6b6;
+$color-grey-darker:         #505050;
+$color-grey-darkest:        #3D3D3D;
+
+
+$color-primary-black: 		#0E2227;
+$color-primary-white: 		#B9E4F0;
+$color-primary-dark: 		#01556D;
+$color-primary-bold: 		#25849F;
+
+$color-complement: 			#FFAE5B;
+$color-complement-black:	#3F2A16;
+$color-complement-white: 	#FFE1C2;
+$color-complement-dark: 	#AF5800;
+$color-complement-bold: 	#FF9B35;
+
+$color-accentone: 			#FFCE5B;
+$color-accentone-black: 	#3F3316;
+$color-accentone-white: 	#FFEDC2;
+$color-accentone-dark: 		#AF7B00;
+$color-accentone-bold: 		#FFC335;
+
+$color-accenttwo: 			#FF715B;
+$color-accenttwo-black: 	#3F1B16;
+$color-accenttwo-white: 	#FFCAC2;
+$color-accenttwo-dark: 		#AF1800;
+$color-accenttwo-bold: 		#FF5135;
+
+$color-neutral:				#a7a7a7;
+$color-neutral-black:		#333333;
+$color-neutral-white:		#efefef;
+$color-neutral-dark:		#555555;
+
+
+// ============================================================================
+// .::[ GRID SYSTEM SIZES ]::.
+// ============================================================================
+$min-container-height: 20em;
+
+$adjust-blw-sm: 350px;
+$breakpoint-sm: 450px;
+$adjust-abv-sm: 525px;
+
+$adjust-blw-md: 600px;
+$breakpoint-md: 750px;
+$adjust-abv-md: 900px;
+
+$adjust-blw-lg: 1000px;
+$breakpoint-lg: 1150px;
+$adjust-abv-lg: 1300px;
+
+$container-width: 90%;
+$container-max-width: 75rem;
+
+$col-12: 	100%;
+$col-11: 	91.66666666666667%;
+$col-10: 	83.33333333333333%;
+$col-9:		75%;
+$col-8: 	66.66666666666667%;
+$col-7: 	58.33333333333333%;
+$col-6: 	50%;
+$col-5: 	41.66666666666667%;
+$col-4: 	33.33333333333333%;
+$col-3: 	25%;
+$col-2: 	16.66666666666667%;
+$col-1: 	8.333333333333333%;
