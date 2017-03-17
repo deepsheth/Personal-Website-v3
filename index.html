@@ -15,7 +15,23 @@
 
     <!-- Analytics
 	================================================== -->
+    <script>
+        
+        // GOOGLE
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-56753882-3', 'auto');
+        ga('send', 'pageview');
+        
+        // HEAP
+        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+        heap.load("1918988559");
+
+    </script>
+    
     <!-- CSS
 	================================================== -->
     <link href='http://fonts.googleapis.com/css?family=Rajdhani:700|Roboto+Slab:400,700|Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -65,7 +81,9 @@
     <section id="deep-info">
         <div class="container-padded">
             <div class="row">
+
                 <img src="./img/deep_sheth.jpg" alt="Deep Sheth Portrait" class="col-md-3">
+
                 <div class="col-lg-5">
                     <p>Hey, I'm Deep! I'm a tech enthusiast. That means programming, developing web apps, designing websites, creating graphics, and simply experimenting with anything computers have to offer is my specialty! </p>
                     <p>Welcome to my blog and check out what I'm working on.</p>
@@ -76,7 +94,6 @@
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -93,13 +110,12 @@
                     <div class="card">
                         <a href="./work/Social%20Meet%20Up.php"><img src="./img/Banner_Meetup2.jpg" alt="">
                             <div class="card-footer">
-                                Social Event Planning App
+                                <span class="thin">Current Project | </span>Event Discovery App
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-
 
             <div class="row">
                 <div class="col-lg-6">
@@ -116,7 +132,7 @@
                     <div class="card">
                         <a href="./work/Software Development.php"><img src="./img/Banner_Systems_Software.jpg" alt="">
                             <div class="card-footer">
-                                Systems Software and Data Structures
+                                Software Development
                             </div>
                         </a>
                     </div>
@@ -155,7 +171,7 @@
         <span id="gen-text">Commitment</span>
     </section>
 
-    <section id="achievements">
+    <!--<section id="achievements">
         <div id="grey-depth">
 
         </div>
@@ -174,30 +190,29 @@
             <div id="right-side-bar" class="col-sm-10 col-md-8">
 
                 <div class="content-summary">
-                    <h2><a href="#">Google & Lutron Award Recipient</a></h2>
+                    <h2><a href="/work/Social%20Meet%20Up.php">Google & Lutron Award Recipient</a></h2>
 
                     <p>
-                        Ice cream cupcake tiramisu apple pie candy canes topping candy marzipan soufflé. Fruitcake lollipop chupa chups sesame snaps tiramisu. Bear claw pudding sweet chocolate bar carrot cake chupa chups jujubes pudding jelly. Gummies gummies dessert.
-
+                        Along with a group of friends, I participated in a mobile app development competition. We created a location-based social event planning app targeted for colleges. I focused on the design aspects of our Android app and PowerPoint to showcase for judges. Although the competition has ended, we are still actively developing our idea and expanding to new platforms. Currently I'm developing the web app to allow user access though browsers.
                     </p>
                 </div>
                 <div class="content-summary">
-                    <h2><a href="#">1st Place: Lehigh Hackathon</a></h2>
+                    <h2><a href="/work/Web%20Development.php#proj-nudge">1st Place: Lehigh Hackathon</a></h2>
                     <p>
-                        Bonbon cake chocolate cake dessert. Sesame snaps chocolate bar candy. Donut lollipop sesame snaps gummies tart jelly cheesecake danish. Cake jelly-o tart croissant marzipan wafer donut cake.
+                        I participated in Lehigh's first hackathon which was 8 hours long. I developed a non-intrusive notification reminder app that allows business to remind their clients about appointments, meetings, or simple confirmation messages. This creates more user engagement as opposed to email reminders.
                     </p>
                 </div>
 
                 <div class="content-summary">
-                    <h2><a href="#">National Winner: Digital Design</a></h2>
+                    <h2><a href="/work/Digital%20Design.php#fbla">National Winner: Digital Design</a></h2>
                     <p>
-                        Donut toffee muffin jelly-o cake lollipop halvah. Chocolate cake halvah tart dragée chocolate bar chupa chups cake. Sweet roll tootsie roll gummies danish carrot cake. Toffee bear claw sesame snaps lollipop cake brownie icing donut marzipan.
+                        I designed a brand identity for an outdoor travel company when I participated in the FBLA Digital Design & Promotion event. I moved onto nationals with my partner where we had to present our design and sell it to a panel of judges. Our design skills and preparation landed us as Top 10 national winners for this competition. This was during my junior year of high school.
                     </p>
                 </div>
             </div>
         </div>
 
-    </section>
+    </section>-->
 
 
 
@@ -214,11 +229,10 @@
                -->
 
                     <a href="https://www.linkedin.com/in/deepsheth" target="_blank"><img src="./img/linkedin_icon.svg" alt="LinkedIn: /in/deepsheth"></a>
-                    <a href="mailto:contact@deepshet.com" target="_blank"><img src="./img/email_icon.svg" alt="email"></a>
+                    <a href="mailto:deepsheth@lehigh.edu" target="_blank"><img src="./img/email_icon.svg" alt="Email: deepsheth@lehigh.edu"></a>
                     <a href="https://www.github.com/deepsheth" target="_blank"><img src="./img/github_icon.svg" alt="GitHub: deepsheth"></a>
                 </div>
                 <div class="col-md-7">
-
                     <h3 class="tagline col-lg-12">Impact With Depth.</h3>
                 </div>
             </div>
@@ -230,7 +244,5 @@
         </div>
     </footer>
 
-
 </body>
-
 </html>

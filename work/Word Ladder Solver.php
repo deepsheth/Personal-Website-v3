@@ -15,6 +15,16 @@
 
     <!-- Analytics
 	================================================== -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56753882-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
 
     <!-- CSS
 	================================================== -->
@@ -43,30 +53,35 @@
             </div>
 
             <div class="container">
-                <p class="lead">
-                    Word Ladder is a simple puzzle game that tries to make you solve this question: If you are given a <em>start word</em> and <em>end word</em>, is it possible to manipulate the <em>start word</em> one letter at a time until it eventually spells the <em>end word</em>? For example, if the start word is <strong>MILK</strong> and end word is <strong>TUBE</strong>, can you change the start word and it's derivatives to eventually spell <strong>TUBE</strong>?
-                </p>
+
+                <div class="row">
+                    <p class="lead col-md-7">
+                        Word Ladder is a simple puzzle game that tries to make you solve this question: If you are given a <em>start word</em> and <em>end word</em>, is it possible to manipulate the <em>start word</em> one letter at a time until it eventually spells the <em>end word</em>? For example, if the start word is <strong>MILK</strong> and end word is <strong>TUBE</strong>, can you change the start word and it's derivatives to eventually spell <strong>TUBE</strong>?
+                    </p>
+
+                    <img src="/img/Banner_Word_Chain.jpg" alt="" class="col-md-5">
+                </div>
                 <h2>Solving the Problem</h2>
                 <p>
-                    I developed a Word Ladder Solver which answers this question for any given pair of start/end words. There are three different components to the final algorithm. The program's first priority is effiency. So, the program picks letters from the end word and tries to find valid english words one letter off from the previous word in the current chain. If the program finds itself at a dead end (no letters from the end word create a valid english word one letter off from the current word), then the program picks a new, <em>valid word</em> from the dictionary in history chain (a word that is one letter off from the current word that has not been used before is considered a <em>valid word</em>). For the worst cases, the program might find itself at a dead-end, after it cannot find anymore <em>valid words</em> in the dictionary. To account for these cases, the program will traverse back in the history chain until it finds a new <em>valid word</em> that does not result in a dead-end.
+                    I developed a Word Ladder Solver which answers this question for any given pair of start/end words. There are three different components to the final algorithm. The program's first priority is efficiency. So, the program picks letters from the end word and tries to find valid English words one letter off from the previous word in the current chain. If the program finds itself at a dead end (no letters from the end word create a valid English word one letter off from the current word), then the program picks a new, <em>valid word</em> from the dictionary in history chain (a word that is one letter off from the current word that has not been used before is considered a <em>valid word</em>). For the worst cases, the program might find itself at a dead-end, after it cannot find anymore <em>valid words</em> in the dictionary. To account for these cases, the program will traverse back in the history chain until it finds a new <em>valid word</em> that does not result in a dead-end.
                 </p>
                 <p>
                     According to a <a href="http://blog.wolfram.com/2012/01/11/the-longest-word-ladder-puzzle-ever/">Wolfram Alpha</a> blog, the word pair that results in the longest word chain is: <strong>CHARGE</strong> (start word) & <strong>COMEDO</strong> (end word). As of now, my program has worked for every test case, including this one.
                 </p>
-                
+
                 <div class="row content-footer">
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
                         <div class="card">
-                            <a href="#" target="_blank">
+                            <a href="mailto:deepsheth@lehigh.edu" target="_blank">
                                 <div class="card-footer">
-                                    Download Word Ladder Solver
+                                    <span class="thin">Request Source Code |</span> Word Ladder Solver
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
-                
-                
+
+
             </div>
         </section>
 

@@ -16,7 +16,7 @@
         </div>
         <div class=\"copyright\">
             <div class=\"container\">
-                <p>&copy; 2016 Deep Sheth</p>
+                <p>&copy; 2017 Deep Sheth</p>
             </div>
         </div>
     </footer>";

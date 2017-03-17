@@ -15,6 +15,15 @@
 
     <!-- Analytics
 	================================================== -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56753882-3', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <!-- CSS
 	================================================== -->
@@ -31,7 +40,7 @@
 <body>
     <?php include '../partials/header.php'; ?>
 
-        <img class="full-width" src="./pic/mobiLEHIGH_promo.jpg">
+        <img class="full-width" src="./pic/mobiLEHIGH_Promo.jpg">
 
         <section id="main-content">
             <div class="post-title">
@@ -47,21 +56,42 @@
                 Game Development: mobiLEHIGH
             </h2>
                 <p>
-
+                    For mobiLEHIGH, a month long game development competition (similar to LU Apps), I prototyped the interface of our game. Along with designing graphics, I created promotional materials for our showcase. Our goal was to develop a cross-platform puzzle game using the <a href="https://libgdx.badlogicgames.com/">libGDX</a> game engine. This framework was particularly useful since it relies on Java, a language everyone in my team was comfortable using.
                 </p>
 
-                <h2>FBLA Digital Design</h2>
+                <h2 id="fbla">FBLA Digital Design</h2>
                 <p>
-                    In my junior year of high school, I competed in Digital Design and Promotion for FBLA. The competition required my team to design a various assortment marketing and promotional material for a fictitious travel agency, Xtreme Adventure. In other words, we had to fully develop the brand and identity of a company.
+                    A while back, I competed in the Digital Design and Promotion event for <a href="http://www.njfbla.org/">FBLA</a>. The competition required my team to design marketing and promotional material for a fictitious travel agency (Xtreme Adventure). With our strong performance at the state level, we advanced to nationals where my teammate and I presented our vision of Xtreme Adventure's brand/identity in front of a panel of judges.
                 </p>
                 <p>
-                    We designed numerous different promotional items, including billboards, large banners, t-shirts, letterheads, business cards, luggage tags, corporate themed PowerPoint, etc. Our design is very minimalistic and uses “earthy” colors in order to symbolize the primary purpose of our company: adventuring. In the end, our efforts paid off as we became National Winners!
-
+                    We designed a number of promotional items, including billboards, large banners, t-shirts, letterheads, business cards, luggage tags, etc. Our design is minimalistic and uses “earthy” colors in order to symbolize the primary purpose of our company: outdoor adventuring.
                 </p>
 
+            </div>
+               
+            <div class="row awards">
+                <div class="left-bar col-sm-2 col-md-4">
+                    <div class="">
+                        <img src="../img/FBLA_Flag.png" alt="Achievements Icon">
+                    </div>
+                </div>
+
+                <div class="right-bar col-sm-10 col-md-8">
+                    <div class="container">
+                        <h2>Award Received</h2>
+                        <div class="container">
+                            <p>
+                                National Competition: Top 10
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="container">
                 <h2>T-Shirt Design</h2>
                 <p>
-                    Every year, the graduating class of my high school receives senior t-shirts and I was asked to design them for my class. Hoping to make our t-shirts stand out, I used thick fonts with a strong white outline for contrast. The final design came out to be nice and striking, so I created further prototypes and experimented with additional colors of my school.
+                    Clubs and organizations have requested me to design mock-ups for them in the past. The designs below were for the seniors in my graduating high school class. I created a number of color variations to allow my class members to pick their favorite shirt design.
                 </p>
 
 

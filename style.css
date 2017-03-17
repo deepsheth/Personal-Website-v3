@@ -493,6 +493,14 @@ th {
 *:after {
   box-sizing: border-box; }
 
+::selection {
+  background: rgba(254, 163, 79, 0.8);
+  color: #FFF; }
+
+::-moz-selection {
+  background: rgba(254, 163, 79, 0.8);
+  color: #FFF; }
+
 body {
   font-size: 2rem;
   font-family: "Roboto Slab", sans-serif; }
@@ -580,43 +588,11 @@ header #site-title {
 .container-padded {
   padding: 3.5em 15%; }
 
-#achievements {
-  background: #0f75bc; }
-  #achievements #left-side-bar #icon-award {
-    margin-top: 10.5em; }
-  #achievements #left-side-bar #pennapps-block {
-    margin-top: 9.25em; }
-    #achievements #left-side-bar #pennapps-block p {
-      border-color: #01556D;
-      color: #3f91dd;
-      text-align: center;
-      font-size: .7em; }
-  #achievements #left-side-bar #fbla-flag {
-    margin-top: 11.5em; }
-  #achievements #left-side-bar img {
-    display: block;
-    max-height: 4.5em;
-    width: 100%;
-    max-width: 5em;
-    margin: auto; }
-  #achievements #right-side-bar {
-    background: #3f91dd;
-    padding: 0em 4em; }
-  #achievements a {
-    color: white;
-    text-decoration: none; }
-  #achievements a:hover {
-    text-decoration: underline; }
-  #achievements p {
-    color: #eb7312;
-    background: #fff;
-    padding: 1.5em;
-    margin: 0;
-    line-height: 1.4;
-    border: 1em solid #e3e3e3; }
-
 .content-summary {
   margin: 5em auto; }
+
+.thin {
+  font-weight: 300; }
 
 #deep-info {
   background: #e3e3e3; }
@@ -626,8 +602,7 @@ header #site-title {
     margin-left: 2.75em; }
 
 #deep-generator {
-  background: #505050;
-  color: #fff;
+  color: #7B7B7B;
   text-align: center;
   padding: 1.65em;
   text-transform: uppercase;
@@ -711,6 +686,9 @@ footer {
   margin-bottom: 5em;
   padding-bottom: 3em; }
 
+img {
+  max-width: 100%; }
+
 span.thin {
   font-weight: lighter;
   opacity: .8; }
@@ -775,9 +753,11 @@ p a:focus {
     border-radius: 10px 10px 10px 10px;
     margin: auto; }
   .awards img {
-    max-height: 3em;
     width: 100%;
-    margin-top: 30%; }
+    max-width: 3.5em;
+    max-height: 3em;
+    margin: 25% auto 0 auto;
+    display: block; }
   .awards .right-bar {
     color: #FFF;
     background: #3f91dd;
